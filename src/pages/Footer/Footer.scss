@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--primary-bg-color);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 4.1875rem; 
+
+    & p {
+        color: var(--white-color);
+    }
+
+    & span {
+        color: var(--primary-color);
+    }
+}
+

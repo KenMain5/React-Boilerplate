@@ -1,0 +1,28 @@
+
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: var(--primary-bg-color);
+    height: 100vh; 
+
+    & h1 {
+        font-size: 4.5rem; 
+        line-height: 110%; 
+        color: var(--white-color); 
+        /* font-style open-sans */
+    }
+
+    & span {
+        color: var(--primary-color);
+        font-weight: light;
+    }
+
+    & p {
+        font-size: 1.5rem;
+    }
+}
+
+
+

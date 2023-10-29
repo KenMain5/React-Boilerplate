@@ -1,0 +1,76 @@
+.aboutme {
+    background-color: var(--secondary-bg-color);
+    height: 57.75rem;
+
+    & h2 {
+        text-align: center;
+    }
+
+    .aboutme__container {
+        width: 931px; 
+        height: 253.68px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        //TODO: Instead of experience, we can write interesting fact about me: 
+    }
+}
+
+.aboutme__image {
+    width: 250px; 
+    height: 250px;
+    background-color: var(--empty-image-color);
+
+    & img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+.aboutme__text {
+    width: 639px; 
+    height: 244px; 
+
+    & p {
+        color: var(--white2-color);
+        line-height: 170%; 
+    }
+
+    & > div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+}
+
+.textRow {
+    display: flex; 
+    
+    &:nth-child(2) {
+        margin: 10px 0;
+    }
+
+    & p:nth-child(1) {
+        width: 100px;
+        font-weight: 400;
+    }
+
+    & p:nth-child(2) {
+        width: 158px;
+    }
+
+    & > p {
+        line-height: 170%;
+    }
+}
+
+.aboutme__interestingFacts {
+    width: 722px; 
+    height: 174px;
+    padding: 30px;
+    background-color: var(--primary-bg-color);
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 90px;
+}

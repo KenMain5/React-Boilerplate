@@ -1,0 +1,43 @@
+:root {
+    /* https://www.figma.com/file/LpVXtezRV2E7nNxDtZE8Xb/Dark-Portfolio-(Community)?type=design&node-id=6-96&mode=design&t=rrcxdWPna6LQLGgH-0 */
+    --primary-color: #E65F78;
+    --secondary-color: #706f7b;
+    --white-color: #FFFFFF; 
+    --white2-color: #F7F7F7; 
+    --primary-bg-color: #1F1F1F; 
+    --secondary-bg-color: #333333; 
+    --empty-image-color: #CCCCCC; 
+}
+
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif;  
+    //change to Open Sans
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 5.625rem; 
+    padding-top: 120px;
+    color: var(--white-color);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: var(--white2-color); 
+}
+
+/* Navigation Section */
+
+
+
